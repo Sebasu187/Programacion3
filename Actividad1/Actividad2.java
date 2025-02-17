@@ -23,10 +23,15 @@ public class Actividad2 {
             System.out.print("Deducciones: ");
             deducciones[i] = scanner.nextDouble();
 
+            netoPagar[i] = sueldos[i] + asignaciones[i] - deducciones[i];
 
         }
 
-
-
+        System.out.println("\nNeto a pagar a cada empleado:");
+        for (int i = 0; i < N; i++) {
+            System.out.println("Empleado " + (i + 1) + ": " + netoPagar[i]);
+        }
+        scanner.close();
     }
+
 }
