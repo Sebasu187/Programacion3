@@ -13,7 +13,20 @@ public class Actividad2 {
         double[] deducciones = new double[N];
         double[] netoPagar = new double[N];
 
-        
+        System.out.println("Ingresa los datos de cada empleado:");
+        for (int i = 0; i < N; i++) {
+            System.out.println("\nEmpleado " + (i + 1) + ":");
+            System.out.print("Sueldo: ");
+            sueldos[i] = scanner.nextDouble();
+            System.out.print("Asignaciones: ");
+            asignaciones[i] = scanner.nextDouble();
+            System.out.print("Deducciones: ");
+            deducciones[i] = scanner.nextDouble();
+
+
+        }
+
+
 
     }
 }
