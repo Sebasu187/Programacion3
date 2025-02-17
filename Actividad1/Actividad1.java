@@ -12,6 +12,16 @@ public class Actividad1 {
             Narreglo[i] = sc.nextInt();
         }
 
+        int suma = 0;
+        for (int i = 0; i < N; i++) {
+            suma += Narreglo[i]; //sumamos 
+        }
+
+        System.out.println("La suma es: " + suma);//mostrmos
+
+        sc.close();//cerramos scanner
+
+
         
     }
 }
