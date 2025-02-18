@@ -5,6 +5,11 @@ public class Actividad5 {
          System.out.print("ingrese el numero de productos: ");
         int N = scanner.nextInt();
 
+        double[] preciosUnitarios = new double[N]; 
+        int[] cantidadesCompradas = new int[N];    
+        String[] descripciones = new String[N];    
+        double[] totalGastado = new double[N]; 
+
         
     }
     
