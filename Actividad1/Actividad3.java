@@ -29,7 +29,20 @@ public class Actividad3 {
         scanner.close();
 
     }
+
     public static int encontrarMayor(int[] arreglo1, int[] arreglo2) {
         int mayor = Integer.MIN_VALUE;
-}
+        for (int edad : arreglo1) {
+            if (edad > mayor) {
+                mayor = edad;
+            }
+        }
+        for (int edad : arreglo2) {
+            if (edad > mayor) {
+                mayor = edad;
+            }
+        }
 
+        return mayor;
+    }
+}
