@@ -22,6 +22,10 @@ public class actividad3 {
                 sumaImpares += numeros[i];
             }
         }
+        System.out.println("\nSuma de números pares: " + sumaPares);
+        System.out.println("Suma de números impares: " + sumaImpares);
+
+        scanner.close();
 
 
     }
