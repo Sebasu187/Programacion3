@@ -10,6 +10,20 @@ public class Actividad7 {
             System.out.print("Elemento " + (i + 1) + ": ");
             A[i] = scanner.nextInt();
         }
+        int[] pares = new int[10];
+        int[] impares = new int[10];
+        int contadorPares = 0;
+        int contadorImpares = 0;
+
+        for (int i = 0; i < 10; i++) {
+            if (A[i] % 2 == 0) {
+                pares[contadorPares] = A[i]; // Agregar a pares
+                contadorPares++;
+            } else {
+                impares[contadorImpares] = A[i]; // Agregar a impares
+                contadorImpares++;
+            }
+        }
         
     }
     
