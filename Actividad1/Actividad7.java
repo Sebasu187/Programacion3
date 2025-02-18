@@ -24,6 +24,17 @@ public class Actividad7 {
                 contadorImpares++;
             }
         }
+        System.out.println("\nNúmeros pares:");
+        for (int i = 0; i < contadorPares; i++) {
+            System.out.print(pares[i] + " ");
+        }
+        System.out.println("\nNúmeros impares:");
+        for (int i = 0; i < contadorImpares; i++) {
+            System.out.print(impares[i] + " ");
+        }
+
+        scanner.close();
+
         
     }
     
