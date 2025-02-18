@@ -10,5 +10,7 @@ public class Actividad9 {
             System.out.print("Elemento " + (i + 1) + ": ");
             arreglo[i] = scanner.nextInt();
         }
+        System.out.print("\nIngrese el número a buscar: ");
+        int numero = scanner.nextInt();
     }
 }
