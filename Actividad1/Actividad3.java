@@ -16,18 +16,20 @@ public class Actividad3 {
             System.out.print("Edad " + (i + 1) + ": ");
             edadesGrupo1[i] = scanner.nextInt();
         }
-        
+
         System.out.println("\nIngrese las edades del segundo grupo:");
         for (int i = 0; i < M; i++) {
             System.out.print("Edad " + (i + 1) + ": ");
             edadesGrupo2[i] = scanner.nextInt();
         }
 
+        int mayorEdad = encontrarMayor(edadesGrupo1, edadesGrupo2);
 
+        System.out.println("\nLa mayor edad es: " + mayorEdad);
+        scanner.close();
 
-
-
-
-        
     }
+    public static int encontrarMayor(int[] arreglo1, int[] arreglo2) {
+        int mayor = Integer.MIN_VALUE;
 }
+
