@@ -12,6 +12,17 @@ public class actividad3 {
             System.out.print("Número " + (i + 1) + ": ");
             numeros[i] = scanner.nextInt();
         }
+        int sumaPares = 0;
+        int sumaImpares = 0;
+
+        for (int i = 0; i < N; i++) {
+            if (numeros[i] % 2 == 0) {
+                sumaPares += numeros[i]; 
+            } else {
+                sumaImpares += numeros[i];
+            }
+        }
+
 
     }
 
