@@ -11,6 +11,15 @@ public class Actividad8 {
                 minimo = valores[i];
             }
         }
+        for (int valor : valores) {
+            if (valor == maximo) {
+                contadorMax++;
+            }
+            if (valor == minimo) {
+                contadorMin++;
+            }
+        }
+
 
     }
 }
