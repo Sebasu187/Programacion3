@@ -4,5 +4,11 @@ public class Actividad9 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el tamaño del arreglo: ");
         int tamaño = scanner.nextInt();
+        int[] arreglo = new int[tamaño];
+        System.out.println("Ingrese los elementos del arreglo:");
+        for (int i = 0; i < tamaño; i++) {
+            System.out.print("Elemento " + (i + 1) + ": ");
+            arreglo[i] = scanner.nextInt();
+        }
     }
 }
