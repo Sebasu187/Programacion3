@@ -12,5 +12,14 @@ public class Actividad9 {
         }
         System.out.print("\nIngrese el número a buscar: ");
         int numero = scanner.nextInt();
+        int contador = 0;
+        for (int elemento : arreglo) {
+            if (elemento == numero) {
+                contador++;
+            }
+        }
+        System.out.println("\nEl número " + numero + " aparece " + contador + " veces en el arreglo.");
+
+        scanner.close();
     }
 }
