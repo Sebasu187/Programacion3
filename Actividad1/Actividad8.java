@@ -19,6 +19,8 @@ public class Actividad8 {
                 contadorMin++;
             }
         }
+        System.out.printf("Número mayor: %d (aparece %d veces)\n", maximo, contadorMax);
+        System.out.printf("Número menor: %d (aparece %d veces)\n", minimo, contadorMin);
 
 
     }
