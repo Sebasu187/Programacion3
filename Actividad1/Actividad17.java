@@ -6,6 +6,8 @@ public class Actividad17 {
         int filas = scanner.nextInt();
         System.out.print("Ingrese el número de columnas: ");
         int columnas = scanner.nextInt();
+
+        int[][] matriz = new int[filas][columnas];
         
     }
     
