@@ -8,6 +8,14 @@ public class Actividad17 {
         int columnas = scanner.nextInt();
 
         int[][] matriz = new int[filas][columnas];
+
+        System.out.println("\nIngrese los elementos de la matriz:");
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < columnas; j++) {
+                System.out.print("Elemento [" + i + "][" + j + "]: ");
+                matriz[i][j] = scanner.nextInt();
+            }
+        }
         
     }
     
