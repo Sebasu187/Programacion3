@@ -21,8 +21,15 @@ class Ejercisio16 {
             edades[i] = sc.nextInt();
             System.out.print("Sexo (M/F): ");
             sexos[i] = sc.next().charAt(0);
-            sc.nextLine(); // Limpiar el buffer
+            sc.nextLine(); 
         }
+        int sumaEdades = 0;
+        for (int edad : edades) {
+            sumaEdades += edad;
+        }
+        double promedioEdad = (double) sumaEdades / n;
+        System.out.println("\na. Edad promedio: " + promedioEdad);
+
 
     }
 }
