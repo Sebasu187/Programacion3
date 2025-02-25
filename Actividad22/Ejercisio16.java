@@ -9,6 +9,10 @@ class Ejercisio16 {
         int n = scanner.nextInt();
         scanner.nextLine();
 
+        String[] nombres = new String[n];
+        int[] edades = new int[n];
+        char[] sexos = new char[n];
+
         
     }
 }
