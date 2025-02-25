@@ -44,6 +44,13 @@ class Ejercisio16 {
             }
         }
         System.out.println("c. Profesor con mayor edad: " + nombres[indiceMayor]);
+        int profesorasMayorPromedio = 0;
+        for (int i = 0; i < n; i++) {
+            if (sexos[i] == 'F' && edades[i] > promedioEdad) {
+                profesorasMayorPromedio++;
+            }
+        }
+        System.out.println("d. Profesoras con edad mayor al promedio: " + profesorasMayorPromedio);
 
     }
 }
