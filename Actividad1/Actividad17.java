@@ -25,6 +25,16 @@ public class Actividad17 {
             }
             System.out.println("Fila " + i + ": " + sumaFila);
         }
+        System.out.println("\nSuma de cada columna:");
+        for (int j = 0; j < columnas; j++) {
+            int sumaColumna = 0;
+            for (int i = 0; i < filas; i++) {
+                sumaColumna += matriz[i][j];
+            }
+            System.out.println("Columna " + j + ": " + sumaColumna);
+        }
+
+        scanner.close();
 
     }
 
