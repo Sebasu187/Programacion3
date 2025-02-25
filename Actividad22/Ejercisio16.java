@@ -59,7 +59,7 @@ class Ejercisio16 {
         }
         System.out.println("e. Profesores con edad menor al promedio: " + profesoresMenorPromedio);
 
-        scanner.close();
+        sc.close();
 
     }
 }
