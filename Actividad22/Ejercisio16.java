@@ -37,6 +37,13 @@ class Ejercisio16 {
             }
         }
         System.out.println("b. Profesor más joven: " + nombres[indiceJoven]);
+        int indiceMayor = 0;
+        for (int i = 1; i < n; i++) {
+            if (edades[i] > edades[indiceMayor]) {
+                indiceMayor = i;
+            }
+        }
+        System.out.println("c. Profesor con mayor edad: " + nombres[indiceMayor]);
 
     }
 }
