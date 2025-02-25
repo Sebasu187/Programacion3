@@ -1,4 +1,5 @@
 package Actividad22;
+
 import java.util.Scanner;
 
 class Ejercisio16 {
@@ -21,7 +22,7 @@ class Ejercisio16 {
             edades[i] = sc.nextInt();
             System.out.print("Sexo (M/F): ");
             sexos[i] = sc.next().charAt(0);
-            sc.nextLine(); 
+            sc.nextLine();
         }
         int sumaEdades = 0;
         for (int edad : edades) {
@@ -29,7 +30,13 @@ class Ejercisio16 {
         }
         double promedioEdad = (double) sumaEdades / n;
         System.out.println("\na. Edad promedio: " + promedioEdad);
-
+        int indiceJoven = 0;
+        for (int i = 1; i < n; i++) {
+            if (edades[i] < edades[indiceJoven]) {
+                indiceJoven = i;
+            }
+        }
+        System.out.println("b. Profesor más joven: " + nombres[indiceJoven]);
 
     }
 }
