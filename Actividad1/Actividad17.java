@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Actividad17 {
     public static void main(String[] args) {
         scanner scanner = new Scanner(System.in);
@@ -16,7 +17,15 @@ public class Actividad17 {
                 matriz[i][j] = scanner.nextInt();
             }
         }
-        
+        System.out.println("\nSuma de cada fila:");
+        for (int i = 0; i < filas; i++) {
+            int sumaFila = 0;
+            for (int j = 0; j < columnas; j++) {
+                sumaFila += matriz[i][j];
+            }
+            System.out.println("Fila " + i + ": " + sumaFila);
+        }
+
     }
-    
+
 }
