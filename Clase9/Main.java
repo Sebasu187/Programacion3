@@ -1,8 +1,21 @@
 package Clase9;
 
+import java.util.Stack;
+
 public class Main{
     public static void main(String[] args) {
-        System.out.println("hola mundo");
+        Stack<Trabajador> trabajadores = new Stack<>();
+
+        Trabajador t1    = new Trabajador("Juan Perez", "001", 500.0);
+        Trabajador t2    = new Trabajador("Ana Gomez", "002", 600.0);
+        Trabajador t3    = new Trabajador("Carlos Ruiz", "003", 700.0);
+
+        trabajadores.push(t1);
+        trabajadores.push(t2);
+        trabajadores.push(t3);
+
+        System.out.println(" Lista de Trabajadores:"+ trabajadores );
+
     }
 
 }
