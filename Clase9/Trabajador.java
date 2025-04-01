@@ -1,5 +1,4 @@
 package Clase9;
-
 public class Trabajador {
 
     private String nombre;
