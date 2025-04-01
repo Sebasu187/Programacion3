@@ -16,8 +16,12 @@ public class Main {
 
         System.out.println(" Lista de Trabajadores:" + trabajadores);
 
+        double inc = 0.20; // Incremento del 20%
+
         for (int i = 0; i < trabajadores.size(); i++) {
-            System.out.println(trabajadores.elementAt(i).getNombre());// Muestra el trabajador en la cima de la pila
+            System.out.println("nombre." +trabajadores.elementAt(i).getNombre()+"salario"+
+                "salario inicial. " + trabajadores.elementAt(i).getSalario() +
+                 "salario final"+ trabajadores.elementAt(i).pagar(inc) + "\n");
         }
     }
 
